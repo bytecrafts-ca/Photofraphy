@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Find the Pro-Photo stall: family photos and grade 8 memories at the school market. Vendor photos at your booth too."
+    />
+    <title>Visit · Pro-Photo</title>
+    <link rel="stylesheet" href="/src/styles/global.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div data-nav></div>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero__inner">
+          <p class="eyebrow" data-visit-eyebrow>&nbsp;</p>
+          <h1 class="display" data-visit-headline>&nbsp;</h1>
+          <p class="subtitle" data-visit-sub>&nbsp;</p>
+        </div>
+      </section>
+
+      <section
+        class="section section--paper"
+        id="vendors"
+        aria-labelledby="vendors-heading"
+      >
+        <div class="container" data-visit-vendors data-reveal></div>
+      </section>
+
+      <section class="section section--divider">
+        <div class="container">
+          <p class="eyebrow">How it works</p>
+          <h2 class="headline" data-reveal>Three steps, under five minutes.</h2>
+          <div class="process" data-visit-process data-reveal></div>
+        </div>
+      </section>
+
+      <section class="section section--paper section--divider">
+        <div class="container">
+          <div class="split">
+            <div data-reveal>
+              <p class="eyebrow">Ready?</p>
+              <h2 class="headline">See what you'll <em>walk away with</em>.</h2>
+              <p class="subtitle">
+                Browse the gallery, or jump straight to the pricing.
+              </p>
+              <div class="cta-row">
+                <a class="btn btn--ghost" href="/work.html">View work</a>
+                <a class="btn btn--primary" href="/pricing.html">See pricing</a>
+              </div>
+            </div>
+            <div class="split__media" data-split-media="2" data-split-label="At the stall" data-reveal></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div data-footer></div>
+
+    <script type="module" src="/src/pages/visit.js"></script>
+  </body>
+</html>

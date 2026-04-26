@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f4ee" />
+    <meta
+      name="description"
+      content="A curated gallery of photographs from Pro-Photo · Professional Photography."
+    />
+    <title>Work · Pro-Photo</title>
+    <link rel="stylesheet" href="/src/styles/global.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div data-nav></div>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero__inner">
+          <p class="eyebrow" data-work-eyebrow>&nbsp;</p>
+          <h1 class="display" data-work-headline>&nbsp;</h1>
+          <p class="subtitle hero__sub" data-work-sub>&nbsp;</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <ul class="masonry" data-masonry role="list"></ul>
+        </div>
+      </section>
+    </main>
+
+    <div
+      class="lightbox"
+      data-lightbox
+      hidden
+      role="dialog"
+      aria-modal="true"
+      aria-label="Enlarged photo"
+    >
+      <button type="button" class="lightbox__close" data-lightbox-close aria-label="Close">×</button>
+      <img class="lightbox__img" data-lightbox-img alt="" />
+    </div>
+
+    <div data-footer></div>
+
+    <script type="module" src="/src/pages/work.js"></script>
+  </body>
+</html>

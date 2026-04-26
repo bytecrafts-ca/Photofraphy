@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="School market pricing: family and grade 8 photos, singles through triples. Cash or e-Transfer at the stall."
+    />
+    <title>Pricing · Pro-Photo</title>
+    <link rel="stylesheet" href="/src/styles/global.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div data-nav></div>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero__inner">
+          <p class="eyebrow" data-pricing-eyebrow>&nbsp;</p>
+          <h1 class="display" data-pricing-headline>&nbsp;</h1>
+          <p class="subtitle hero__sub" data-pricing-sub>&nbsp;</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="pricing" data-pricing-tiers data-reveal></div>
+
+          <div class="addons" data-reveal>
+            <h2 class="title" style="margin-bottom: 1.25rem">Add-ons</h2>
+            <ul class="addons__list" data-pricing-addons role="list"></ul>
+          </div>
+
+          <p class="pricing__footnote" data-pricing-footnote></p>
+        </div>
+      </section>
+
+      <section class="section section--paper section--divider">
+        <div class="container">
+          <div class="split">
+            <div data-reveal data-pricing-pay></div>
+            <div class="split__media" data-split-media="1" data-split-label="Prints while you wait" data-reveal></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div data-footer></div>
+
+    <script type="module" src="/src/pages/pricing.js"></script>
+  </body>
+</html>

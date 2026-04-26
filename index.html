@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f4ee" />
+    <meta
+      name="description"
+      content="Pro-Photo at the school market. Family photos and grade 8 friend groups before high school. Quick shoot, you pick prints, same day. Canon R50, Selphy."
+    />
+    <title>Pro-Photo · Professional Photography</title>
+    <link rel="stylesheet" href="/src/styles/global.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div data-nav></div>
+
+    <main id="main">
+      <section class="hero">
+        <div class="hero-collage" data-hero-collage aria-hidden="true"></div>
+        <div class="container hero__inner">
+          <p class="eyebrow" data-home-eyebrow>&nbsp;</p>
+          <h1 class="display" data-home-headline>&nbsp;</h1>
+          <p class="subtitle hero__sub" data-home-sub>&nbsp;</p>
+          <div class="cta-row hero__cta">
+            <a class="btn btn--primary" data-home-cta-primary href="/pricing.html">See pricing</a>
+            <a class="btn btn--ghost" data-home-cta-secondary href="/work.html">View work</a>
+          </div>
+          <p class="hero__meta" data-home-feature>&nbsp;</p>
+        </div>
+      </section>
+
+      <section class="marquee" aria-hidden="true">
+        <div class="marquee__track" data-marquee></div>
+      </section>
+
+      <section class="section section--paper">
+        <div class="container" data-reveal>
+          <p class="eyebrow" data-home-audience-eyebrow>&nbsp;</p>
+          <h2 class="headline" data-home-audience-headline>&nbsp;</h2>
+          <p class="subtitle" data-home-audience-sub>&nbsp;</p>
+          <p class="home-vendors-cta" data-home-vendors-cta></p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <p class="eyebrow">Featured</p>
+          <h2 class="headline" data-reveal>A taste of <em>the work</em>.</h2>
+          <p class="subtitle" data-reveal>
+            A few favorites. See the full set on
+            <a class="btn--link" href="/work.html" style="display:inline-block">Work</a>.
+          </p>
+          <ul class="strip" data-strip role="list"></ul>
+        </div>
+      </section>
+
+      <section class="section section--paper section--divider">
+        <div class="container">
+          <div class="split">
+            <div data-reveal>
+              <p class="eyebrow">The offer</p>
+              <h2 class="headline">Snap. Pick. <em>Print.</em></h2>
+              <p class="subtitle">
+                Maybe 5 to 7 quick photos, not an hour. You say which to print and how
+                many, I run them on the Selphy. Good for a family shot you will actually
+                keep, or grade 8s with your friends before high school. Same deal. Prints
+                that day.
+              </p>
+              <div class="cta-row">
+                <a class="btn btn--primary" href="/pricing.html">See pricing</a>
+                <a class="btn btn--ghost" href="/visit.html">How to visit</a>
+              </div>
+            </div>
+            <div class="split__media" data-split-media="0" data-split-label="At the stall" data-reveal></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div
+      class="lightbox"
+      data-lightbox
+      hidden
+      role="dialog"
+      aria-modal="true"
+      aria-label="Enlarged photo"
+    >
+      <button type="button" class="lightbox__close" data-lightbox-close aria-label="Close">×</button>
+      <img class="lightbox__img" data-lightbox-img alt="" />
+    </div>
+
+    <div data-footer></div>
+
+    <script type="module" src="/src/pages/home.js"></script>
+  </body>
+</html>
