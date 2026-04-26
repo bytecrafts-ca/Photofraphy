@@ -5,7 +5,7 @@
  * They are auto-discovered, sorted alphabetically, and used across the site.
  */
 export const siteConfig = {
-  brand: "Pro-Photo",
+  brand: "Pro-Foto",
   tagline: "Professional Photography",
   photographer: "Rami",
 
@@ -129,12 +129,12 @@ export const siteConfig = {
     vendors: {
       eyebrow: "Other vendors at the market",
       headline: "Photo in front of your booth.",
-      sub: "If you have a table here, I can take a few shots of you and whoever works it with you, in front of your setup. Good for remembering the day. Stop by the Pro-Photo table and we can set a time and a price that works.",
+      sub: "If you have a table here, I can take a few shots of you and whoever works it with you, in front of your setup. Good for remembering the day. Stop by the Pro-Foto table and we can set a time and a price that works.",
     },
   },
 
   footer: {
-    line: "Pro-Photo · Canon EOS R50 · Canon Selphy",
+    line: "Pro-Foto · Canon EOS R50 · Canon Selphy",
     secondary: "School market photos you can keep.",
   },
 };

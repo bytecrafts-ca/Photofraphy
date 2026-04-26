@@ -1,4 +1,4 @@
-# Pro-Photo · Professional Photography
+# Pro-Foto · Professional Photography
 
 Vibrant, image-first, multi-page site for selling printed photos at the school market. Shot on Canon EOS R50. Printed on Canon Selphy.
 
@@ -27,7 +27,7 @@ npm run build    # outputs ./dist
 npm run preview  # serves the production build locally
 ```
 
-Source repo: [github.com/bytecrafts-ca/pro-photo](https://github.com/bytecrafts-ca/pro-photo). Live: [pro-photo.vercel.app](https://pro-photo.vercel.app).
+Source repo: [github.com/bytecrafts-ca/pro-foto](https://github.com/bytecrafts-ca/pro-foto). Live: [pro-foto.vercel.app](https://pro-foto.vercel.app).
 
 You can also deploy the contents of `dist/` to any static host.
 
