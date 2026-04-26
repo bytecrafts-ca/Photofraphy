@@ -46,7 +46,7 @@ export const siteConfig = {
     sub: "Geared toward family photos at the market and grade 8 groups who want a real memento of this year, but anyone can walk up. I take maybe 5 to 7 quick photos, you choose what gets printed. Pay at the table, cash or e-Transfer. Digital file included, email or AirDrop.",
     payAtStall: {
       eyebrow: "Website and market day",
-      headlineLead: "Pay when you pick up your prints.",
+      headlineLead: "Pay after the photos are taken.",
       headlineEm: "Cash or e-Transfer.",
       sub: "This page is just marketing: prices and how the table works. You show up at the market for the real thing. I take the photos, you choose what to print, you pay in person right there, cash or e-Transfer. When the transfer has cleared, you get the prints and the digitals.",
     },
@@ -80,7 +80,7 @@ export const siteConfig = {
       },
       {
         name: "Three",
-        price: "20",
+        price: "18",
         unit: "3 prints",
         blurb: "Three prints from the same set.",
         features: [
@@ -104,9 +104,9 @@ export const siteConfig = {
     headline: "Find me at the market.",
     sub: "In person at the school market. I take a few quick photos, you choose the prints, you go home with them. If you are a parent after a family picture, or in grade 8 and here with your friends, that is what this is for. Same easy flow either way.",
     details: {
-      date: "TBD",
+      date: "School market day",
       time: "During school market hours",
-      location: "TBD",
+      location: "Main school market area",
       stallHint: "Look for the photography table. I'll add a sign before the day.",
     },
     process: [

@@ -55,11 +55,19 @@ function renderHome() {
     const words = [
       siteConfig.brand,
       siteConfig.tagline || "Professional Photography",
+      "School market photos",
+      "Family photos",
+      "Grade 8 friend groups",
+      "Quick photo stop",
       "Shot on EOS R50",
       "Printed on Selphy",
+      "You pick, I print",
+      "Prints same day",
+      "Digital included",
+      "Cash or e-Transfer",
     ];
     let html = "";
-    for (let i = 0; i < 8; i++) {
+    for (let i = 0; i < words.length; i++) {
       const w = words[i % words.length];
       const accent = i % 2 === 1 ? "marquee__word--accent" : "";
       html += `<span class="marquee__word ${accent}">${escapeHtml(w)}</span>`;
