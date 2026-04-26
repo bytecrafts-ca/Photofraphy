@@ -27,7 +27,9 @@ npm run build    # outputs ./dist
 npm run preview  # serves the production build locally
 ```
 
-Deploy the contents of `dist/` to Netlify, Vercel, GitHub Pages, Cloudflare Pages, or any static host.
+Source repo: [github.com/bytecrafts-ca/pro-photo](https://github.com/bytecrafts-ca/pro-photo). Live: [pro-photo.vercel.app](https://pro-photo.vercel.app).
+
+You can also deploy the contents of `dist/` to any static host.
 
 ## Edit content
 
